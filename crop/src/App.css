@@ -1,0 +1,267 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Ubuntu:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&family=Ubuntu:wght@500&display=swap');
+body{
+  background-color: rgb(246, 255, 248);
+}
+.nav{
+  background-color: rgb(34, 129, 48);
+  height: 5%;
+  margin-top: -20px;
+  letter-spacing: 4px;
+  height: 10vh;
+  color: rgb(255, 255, 255);
+  font-family: 'Ubuntu', sans-serif;
+  /* font-family: 'Kanit', sans-serif; */
+}
+
+.nav-header
+{
+  text-align: center;
+  padding-top: 2vh;
+}
+
+img{
+  height: 330px;
+  width: 330px;
+}
+
+.Part1{
+  display: flex;
+  padding: 100px;
+  margin-left: 50px;
+}
+
+.sub-txt1{
+  width: 50%;
+  margin-right: 140px;
+  
+}
+.txt1{
+  font-family: 'Poppins', sans-serif;
+  margin-left: 10px;
+}
+
+
+
+.Part2{
+  display: flex;
+  padding: 100px;
+  margin-left: 40px;
+  margin-top: -60px;
+  margin-bottom: 30px;
+}
+
+.sub-txt2{
+  width: 50%;
+ 
+  margin-left: 150px;
+}
+
+.btn{
+  color: aliceblue;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  border: none;
+  height: 55px;
+  width: 500px;
+  margin-left: 80px;
+  border-radius: 10px;
+  background-color:rgb(32, 158, 51);
+}
+
+.outlet{
+  height: 1030px;
+  width: 1000px;
+  margin-left: 130px;
+  margin-top: 80px;
+  margin-bottom: 150px;
+  background-color: rgb(196, 230, 193);
+  border-radius: 25px;
+}
+
+.price{
+  padding: 50px;
+  margin-left: 230px;
+
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+.ans
+{
+  margin-left: 150px;
+}
+.final{
+  border: none;
+  height: 40px;
+  width: 250px;
+  border-radius: 15px;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+  position: relative;
+  margin-left: 20vh;
+}
+.pbtn{
+  border: none;
+  height: 40px;
+  width: 250px;
+  border-radius: 15px;
+  margin-left: -20vh;
+  font-size: 15px;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.plab{
+  margin-top: 20px;
+  margin-left: 160px;
+}
+
+.opt{
+  margin-top: 10px;
+  margin-left: 90px;
+  height: 50px;
+  display: flex;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+}
+
+.lo{
+  margin-bottom: 50px;
+}
+.ypart{
+  padding: 50px;
+  margin-left: 150px;
+  text-align: center;
+}
+
+
+.ydiv{
+  margin-top: 45px;
+  /* left: 30px; */
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+.e{
+  margin-left: 25vh;
+  border: none;
+  border-radius: 8px;
+  width: 60vh;
+}
+
+
+
+.res{
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  margin-top: 80px;
+  font-size: 30px;
+  margin-left: 0px;
+}
+
+
+
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  max-width: 500px;
+  margin: 30vh auto;  
+}
+.logfo-div {
+  z-index: 1;
+}
+.logfo-div, .button-div {
+  transition: .5s ease-out;
+}
+.logfo {
+  border: 1px solid lightgray;
+  border-radius: 5px;  
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+input, button {
+  margin: 5px;
+}
+
+/*SKELETON CSS*/
+
+/*INPUT STYLING*/
+input[type="text"],
+input[type="password"],
+textarea,
+select {
+  height: 38px;
+  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box; }
+input[type="text"]:focus,
+input[type="password"]:focus,
+textarea:focus {
+  border: 1px solid #2BCC9E;
+  outline: 0; }
+
+/*BUTTON STYLING*/
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  color: #555;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box; }
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0; }
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #2BCC9E;
+  border-color: #2BCC9E; }
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #3FB594;
+  border-color: #3FB594; }
